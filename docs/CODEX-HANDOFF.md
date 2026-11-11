@@ -21,7 +21,7 @@ Current prototype contains horizontal swipe plus a tap-triggered CSS bottom-up d
 ### Locate original working source first
 1. Read the [Wall Riot Codex full handoff](https://app.notion.com/p/411074e59fe58167b490db889c329cf7) — specifically its **existing CAIO X sticky-scroll reuse** section. It is the most relevant recent implementation instruction, not just inspiration.
 2. Find CAIO X original **"How this goes down"** component and CSS in its GitHub/Codex project; inspect actual code, behavior, sticky boundaries, reduced-motion, and mobile scroll interactions.
-3. Read the [CAIO X Wise-inspired prompt](https://app.notion.com/p/6b2074e59fe5823f950781b0bd58b3d2) and [CAIO X design notes](https://app.notion.com/p/48c074e59fe58358bc8081a35cbb4a12) for intent.
+3. Read the [CAIO X Wise-inspired prompt](https://app.notion.com/p/6b2074e59fe5823f950781b0bd58b3d2) and [CAIO X design notes](https://app.notion.com/p/48c074e59fe58358bc8081a35cbb4a12) for intent purposes only.
 4. Reuse working mechanics as an adapted, contained **StickyServiceShowcase**, not as a pixel-clone of Wise or Wall Riot.
 5. If original CAIO X source is inaccessible, **report the blocker**; do not claim its implementation was reused.
 
