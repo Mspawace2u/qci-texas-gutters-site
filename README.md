@@ -1,6 +1,6 @@
 # Texas Gutters — QCI pilot
 
-**Status: nonproduction staging. Code/interaction QA passes; final visual review blocked by four missing original photos.**
+**Status: nonproduction staging. Original photos recovered; code/interaction and image-inclusive QA completed. Owner and campaign approval remain pending.**
 
 - Target: Katy + Cypress / West Houston, Texas.
 - Planned domain / reserved Vercel project: `texasgutters.site` / `qci-texas-gutters-site`.
@@ -9,7 +9,7 @@
 
 ## Review
 
-Start with [QA report](docs/QA-REPORT.md), [source review](docs/CAIO-SOURCE-REVIEW.md) and [MarketCall checklist](docs/MARKETCALL-REVIEW-PACK.md). The expected photos and attempted recovery are recorded in [asset manifest](docs/ASSET-MANIFEST.md). Do not approve the visuals until they load.
+Start with [QA report](docs/QA-REPORT.md), [source review](docs/CAIO-SOURCE-REVIEW.md) and [MarketCall checklist](docs/MARKETCALL-REVIEW-PACK.md). Photo provenance and recovery are recorded in [asset manifest](docs/ASSET-MANIFEST.md). Updated image-inclusive screenshots and motion evidence are saved for owner review.
 
 `index.html` + `styles.css` + `services.js` are the static app; no build step or runtime dependencies. For local QA: `python3 -m http.server 4173 --bind 127.0.0.1`. This command is for local testing, not authorization to publish a preview.
 

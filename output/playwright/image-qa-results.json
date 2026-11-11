@@ -1,0 +1,525 @@
+{
+  "scope": "Previously blocked image-inclusive checks only; original 65 tests not rerun",
+  "widths": [
+    {
+      "width": 320,
+      "scrollWidth": 320,
+      "cls": 0,
+      "images": [
+        {
+          "path": "assets/texas-home-hero.webp",
+          "loaded": true,
+          "natural": [
+            1448,
+            630
+          ],
+          "rendered": [
+            288,
+            360
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-installation.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            282,
+            403
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-guards.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            282,
+            403
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-repairs.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            282,
+            403
+          ],
+          "fit": "cover"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+          "bytes": 182916,
+          "durationMs": 3.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+          "bytes": 39076,
+          "durationMs": 2.199999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+          "bytes": 46180,
+          "durationMs": 2.699999999254942
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+          "bytes": 34192,
+          "durationMs": 1.300000000745058
+        }
+      ]
+    },
+    {
+      "width": 375,
+      "scrollWidth": 375,
+      "cls": 0,
+      "images": [
+        {
+          "path": "assets/texas-home-hero.webp",
+          "loaded": true,
+          "natural": [
+            1448,
+            630
+          ],
+          "rendered": [
+            343,
+            360
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-installation.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            337,
+            425
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-guards.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            337,
+            425
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-repairs.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            337,
+            425
+          ],
+          "fit": "cover"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+          "bytes": 182916,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+          "bytes": 39076,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+          "bytes": 46180,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+          "bytes": 34192,
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390,
+      "cls": 0,
+      "images": [
+        {
+          "path": "assets/texas-home-hero.webp",
+          "loaded": true,
+          "natural": [
+            1448,
+            630
+          ],
+          "rendered": [
+            358,
+            360
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-installation.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            352,
+            425
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-guards.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            352,
+            425
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-repairs.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            352,
+            425
+          ],
+          "fit": "cover"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+          "bytes": 182916,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+          "bytes": 39076,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+          "bytes": 46180,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+          "bytes": 34192,
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "width": 430,
+      "scrollWidth": 430,
+      "cls": 0,
+      "images": [
+        {
+          "path": "assets/texas-home-hero.webp",
+          "loaded": true,
+          "natural": [
+            1448,
+            630
+          ],
+          "rendered": [
+            398,
+            360
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-installation.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            392,
+            425
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-guards.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            392,
+            425
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-repairs.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            392,
+            425
+          ],
+          "fit": "cover"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+          "bytes": 182916,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+          "bytes": 39076,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+          "bytes": 46180,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+          "bytes": 34192,
+          "durationMs": 0
+        }
+      ]
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280,
+      "cls": 0,
+      "images": [
+        {
+          "path": "assets/texas-home-hero.webp",
+          "loaded": true,
+          "natural": [
+            1448,
+            630
+          ],
+          "rendered": [
+            1100,
+            560
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-installation.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            647,
+            441
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-guards.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            647,
+            441
+          ],
+          "fit": "cover"
+        },
+        {
+          "path": "assets/gutter-repairs.webp",
+          "loaded": true,
+          "natural": [
+            640,
+            640
+          ],
+          "rendered": [
+            647,
+            441
+          ],
+          "fit": "cover"
+        }
+      ],
+      "resources": [
+        {
+          "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+          "bytes": 182916,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+          "bytes": 39076,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+          "bytes": 46180,
+          "durationMs": 0
+        },
+        {
+          "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+          "bytes": 34192,
+          "durationMs": 0
+        }
+      ]
+    }
+  ],
+  "failed": [],
+  "responses": [
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/texas-home-hero.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-installation.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-guards.webp",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4173/assets/gutter-repairs.webp",
+      "status": 200
+    }
+  ]
+}

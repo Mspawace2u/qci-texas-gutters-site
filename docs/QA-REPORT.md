@@ -1,6 +1,6 @@
 # Staging QA — November 11, 2026
 
-**Outcome: interaction/code QA passes; final visual approval is BLOCKED by four missing approved photographs. No production or remote preview deployed.**
+**Outcome: original photographs recovered and image-inclusive QA completed. No image-induced regression found. The earlier 65 passing checks were not repeated. Owner/MarketCall approval remains pending. No production or remote preview deployed.**
 
 ## Change summary
 
@@ -35,8 +35,8 @@ See `output/playwright/extra-qa-results.json`:
 
 ## Limits and remaining blockers
 
-1. **Required input:** original `texasgutters-v2-preview.zip` or its four approved WebP files. Shared delivery is visible but not downloadable. Image loading, photo content/crops, gutter relevance and final image performance cannot pass until actual bytes are restored.
-2. Final image-inclusive mobile/desktop screenshots, motion and performance checks must be rerun after asset recovery. Current evidence shows missing images and is not final design signoff.
+1. Photo recovery is complete: all four approved originals now exist in `assets/`. Their bytes match the recorded source sizes, and copies match the files recovered from Downloads.
+2. New image-inclusive screenshots and recording supersede the earlier missing-photo evidence for visual review. The service sources are 640×640 and retain their original white edging/soft detail; no crops, replacement imagery or code changes were applied. Owner visual approval is still a review gate.
 3. Tests use local Chromium with mobile dimensions and touch emulation. Physical iPhone/Safari behavior and production network performance are not claimed.
 4. Separate owner and MarketCall campaign/creative/placement approval remain required. Review existing ambiguous service/speed headings proposed in EDITORIAL-DRAFT.md; no copy was silently changed.
 5. A remote preview needs separate authorization. Plan: after photo recovery and QA, create a review-only preview under the reserved project name if approved. No DNS, production promotion, tracking or calls as part of that preview.
@@ -49,3 +49,30 @@ See `output/playwright/extra-qa-results.json`:
 - `docs/EDITORIAL-DRAFT.md`: original local answer proposals and source links, kept separate for copy approval.
 
 Focused motion recording: `output/playwright/card-rise-390.webm` (photos absent; structural evidence only).
+
+## Completed image recovery and image-inclusive QA — November 11, 2026
+
+Scope: only the previously blocked image loading, visual crops, image-inclusive presentation and image-related layout/performance observations. The 65 passed interaction checks and extra fallback/touch checks were NOT rerun. `index.html`, `styles.css`, `services.js` and the original QA evidence remain unchanged.
+
+Recovered directly from `/Users/pattywoods/Downloads`:
+
+| Asset | Bytes | Natural dimensions |
+|---|---:|---:|
+| texas-home-hero.webp | 182,916 | 1448×630 |
+| gutter-installation.webp | 39,076 | 640×640 |
+| gutter-guards.webp | 46,180 | 640×640 |
+| gutter-repairs.webp | 34,192 | 640×640 |
+
+Total photo payload: 302,364 bytes (about 295 KiB). No recompression, regeneration or substitutions. SHA256 checksums are recorded in the asset manifest.
+
+Results in `output/playwright/image-qa-results.json`:
+- At 320 / 375 / 390 / 430 / 1280px, every image loaded and decoded with nonzero natural dimensions; photo responses were HTTP 200.
+- Captured and inspected hero/service screenshots: visible gutter/eave/downspout details, guard mesh and repair work; no broken-image state. Existing `object-fit: cover` preserves proportions while cropping.
+- Image-inclusive layout stayed within viewport width at all five sizes. Observed local CLS remained 0; no image-induced layout regression found.
+- Local cold photo response durations were approximately 1.3–3.2ms; subsequent widths used cache. These are local observations, not a production/mobile-network performance score.
+- Saved image-inclusive horizontal and reduced-motion screenshots at 390px for presentation review, without rerunning the interaction assertions.
+- Recorded the sticky card sequence with images present: `output/playwright/images-card-rise-390.webm` and midpoint screenshot `images-card-rise-mid-390.png`.
+
+Visual evidence: `images-hero-{width}.png`, `images-card-{width}-{1,2,3}.png`, `images-horizontal-390-{1,2,3}.png`, and `images-reduced-motion-390.png` under `output/playwright/`.
+
+No HTML/CSS/JavaScript changes were needed. No production deployment, call activation, tracking or DNS changes were performed.
