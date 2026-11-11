@@ -17,9 +17,6 @@ html{scroll-padding-top:24px}
 button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visible{outline:3px solid var(--blue);outline-offset:4px}
 .services{isolation:isolate}
 .section-head{display:block}
-.service-tools{display:flex;gap:12px;align-items:center;margin-top:24px;flex-wrap:wrap}
-.view-toggle{min-height:44px;font-size:10px;padding:12px 18px}
-.view-toggle[hidden],.carousel-controls[hidden],.carousel-dots[hidden]{display:none}
 .service-note{color:var(--muted);font-size:14px;margin:18px 0 0;max-width:30rem}
 .carousel{display:grid;gap:22vh;padding:2px 2px 22vh;position:relative;min-width:0}
 .service-card{position:sticky;top:24px;z-index:1;display:grid;grid-template-rows:minmax(0,1fr) auto;height:min(620px,calc(100svh - 48px));min-height:430px;border-radius:22px;background:var(--ivory);border:1px solid var(--line);overflow:hidden;box-shadow:0 -8px 30px rgba(22,40,44,.10);scroll-margin-top:24px}
@@ -29,26 +26,16 @@ button:focus-visible,a:focus-visible,summary:focus-visible,[tabindex]:focus-visi
 .service-overlay h3{font-size:26px;margin:0;line-height:1.12}
 .card-desc{margin:14px 0 18px;font-size:15px;line-height:1.48;color:var(--muted)}
 .card-more{width:100%;min-height:50px;font-size:11px}
-.carousel-controls{display:flex;gap:9px}
-.circle-arrow{border:1px solid var(--line);border-radius:50%;background:var(--white);width:44px;height:44px;display:grid;place-items:center;color:var(--green-deep);cursor:pointer}
-.circle-arrow svg{width:20px;height:20px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-.circle-arrow:disabled{opacity:.4;cursor:default}
-.carousel-dots{display:flex;justify-content:center;gap:8px;margin-top:8px}
-.carousel-dot{width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:var(--white);font:700 11px var(--mono);color:var(--blue);cursor:pointer}
-.carousel-dot[aria-current=true]{background:var(--blue);color:var(--white)}
-.services[data-view=swipe] .carousel{display:flex;overflow-x:auto;gap:16px;scroll-snap-type:x mandatory;overscroll-behavior-inline:contain;padding:4px 4px 22px;scrollbar-width:thin;scrollbar-color:var(--green-deep) var(--ivory)}
-.services[data-view=swipe] .service-card{position:relative;top:auto;flex:0 0 86%;height:480px;min-height:0;scroll-snap-align:center}
 @media(min-width:1000px){
-.services[data-view=stack]{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:clamp(32px,7vw,80px);align-items:start}
-.services[data-view=stack] .section-head{position:sticky;top:48px;margin:0}
-.services[data-view=stack] .carousel{gap:25vh}
-.services[data-view=swipe] .service-card{flex-basis:calc((100% - 32px)/3);height:490px}
+.services{display:grid;grid-template-columns:minmax(0,.72fr) minmax(0,1.28fr);gap:clamp(32px,7vw,80px);align-items:start}
+.services .section-head{position:sticky;top:48px;margin:0}
+.services .carousel{gap:25vh}
 }
 @media(max-width:820px){.service-overlay{padding:20px}.service-overlay h3{font-size:24px}}
 @media(max-height:560px),(prefers-reduced-motion:reduce){
-.services[data-view=stack] .carousel{gap:24px;padding-bottom:0}
-.services[data-view=stack] .service-card{position:relative;top:auto;height:auto;min-height:0;grid-template-rows:auto auto}
-.services[data-view=stack] .service-img{height:250px}
-.services[data-view=stack] .section-head{position:relative;top:auto}
+.services .carousel{gap:24px;padding-bottom:0}
+.services .service-card{position:relative;top:auto;height:auto;min-height:0;grid-template-rows:auto auto}
+.services .service-img{height:250px}
+.services .section-head{position:relative;top:auto}
 }
-@media print{.service-card,.section-head{position:static!important}.carousel{display:block!important}.service-card{height:auto!important;break-inside:avoid;margin-bottom:24px}.service-img{height:200px}.service-tools,.carousel-dots{display:none!important}}
+@media print{.service-card,.section-head{position:static!important}.carousel{display:block!important}.service-card{height:auto!important;break-inside:avoid;margin-bottom:24px}.service-img{height:200px}}

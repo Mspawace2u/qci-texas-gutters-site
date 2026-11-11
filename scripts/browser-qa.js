@@ -1,5 +1,5 @@
 async page => {
-  const results = {testedAt: new Date().toISOString(), scope:'Local Chromium; missing original photos prevent final visual approval', widths:[], assertions:[], blocked:[]};
+  const results = {testedAt: new Date().toISOString(), scope:'Local Chromium; sticky vertical service sequence', widths:[], assertions:[], blocked:[]};
   const check = (name, value) => { results.assertions.push({name,pass:!!value}); };
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
@@ -13,7 +13,7 @@ async page => {
     await page.evaluate(()=>document.fonts.ready);
     const geometry = await page.evaluate(() => {
       const rect = el => {const r=el.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};};
-      const pills = [...document.querySelectorAll('.pill:not(.view-toggle)')].map(el=>{
+      const pills = [...document.querySelectorAll('.pill')].map(el=>{
         const range = document.createRange();range.selectNodeContents(el);
         const cs=getComputedStyle(el);
         return {...rect(el),text:el.textContent.trim(),textWidth:range.getBoundingClientRect().width,availableWidth:el.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight),lines:range.getClientRects().length};
@@ -41,15 +41,6 @@ async page => {
     await page.evaluate(y=>scrollTo({top:y,behavior:'instant'}),boundary+50);
     const last = await cards.last().boundingBox();
     check(width+' clean sticky section exit',last.y+last.height<0);
-    await page.locator('#viewToggle').click();
-    await page.locator('#carousel').focus();
-    await page.keyboard.press('End');
-    await page.waitForTimeout(650);
-    check(width+' keyboard gallery selects repairs',await page.locator('[data-slide="2"]').getAttribute('aria-current')==='true');
-    check(width+' gallery no document overflow',await page.evaluate(()=>document.documentElement.scrollWidth===innerWidth));
-    await page.screenshot({path:`output/playwright/swipe-${width}.png`});
-    await page.locator('#viewToggle').click();
-    check(width+' stack restored',await page.locator('#services').getAttribute('data-view')==='stack');
     results.widths.push({...geometry,scrollSamples:{before,after}});
   }
   await page.setViewportSize({width:390,height:800});
@@ -77,7 +68,6 @@ async page => {
   check('noindex nofollow',await page.locator('meta[name="robots"]').getAttribute('content')==='noindex,nofollow');
   check('all local anchors resolve',await page.locator('a[href^="#"]').evaluateAll(els=>els.every(a=>document.querySelector(a.getAttribute('href')))));
   check('no JavaScript errors',errors.length===0);
-  results.blocked.push('Four approved WebP image files absent; no successful image load or photography QA can be claimed.');
   results.runtimeErrors=errors;
   results.failed=results.assertions.filter(a=>!a.pass);
   return results;

@@ -76,3 +76,9 @@ Results in `output/playwright/image-qa-results.json`:
 Visual evidence: `images-hero-{width}.png`, `images-card-{width}-{1,2,3}.png`, `images-horizontal-390-{1,2,3}.png`, and `images-reduced-motion-390.png` under `output/playwright/`.
 
 No HTML/CSS/JavaScript changes were needed. No production deployment, call activation, tracking or DNS changes were performed.
+
+## Owner-requested sticky-only experience — November 11, 2026
+
+Removed the optional horizontal view, toggle, arrow controls, numbered controls, swipe styles and related JavaScript. Sticky cards rising from the bottom are now the sole service presentation. This supersedes earlier references to optional horizontal browsing and its historical QA evidence. Owner direction: this upward sticky-scroll behavior is intended as a signature for future niche/geographic sites; no additional sites were created here.
+
+Focused checks at 390px and 1280px confirmed: toggle/controls absent, all three service cards present, first card stays sticky while the next rises, normal section exit, and no page overflow. Reduced-motion ordinary flow remains intact. JavaScript syntax and diff whitespace checks passed. Screenshots: `output/playwright/sticky-only-390.png` and `sticky-only-1280.png`. The full historical 65-test suite was not repeated; reusable QA scripts were updated to remove checks for the retired horizontal mode. Preview refreshed locally; no deployment or live-call activation.
