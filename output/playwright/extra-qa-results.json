@@ -1,0 +1,40 @@
+{
+  "renderedHeadlineFont": {
+    "fonts": [
+      {
+        "familyName": "Google Sans Flex",
+        "postScriptName": "GoogleSansFlex-Regular_wght2EE0000",
+        "isCustomFont": true,
+        "glyphCount": 43
+      }
+    ]
+  },
+  "renderedButtonFont": {
+    "fonts": [
+      {
+        "familyName": "Google Sans Code",
+        "postScriptName": "GoogleSansCode-Regular",
+        "isCustomFont": true,
+        "glyphCount": 17
+      }
+    ]
+  },
+  "touchSwipe": {
+    "left": 293,
+    "pass": true
+  },
+  "fontFailureFallback": {
+    "noOverflow": true,
+    "visible": true,
+    "status": [
+      "error",
+      "error"
+    ]
+  },
+  "noJS": {
+    "cards": 3,
+    "toggleHidden": true,
+    "overflow": false,
+    "faqWorks": true
+  }
+}

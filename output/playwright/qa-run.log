@@ -1,0 +1,96 @@
+### Result
+{"testedAt":"2026-11-11T17:56:32.635Z","scope":"Local Chromium; missing original photos prevent final visual approval","widths":[{"width":320,"scrollWidth":320,"startY":0,"pills":[{"x":43,"y":743.9375,"width":234,"height":47,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":214,"lines":1},{"x":43,"y":799.9375,"width":234,"height":47,"text":"EXPLORE SERVICES","textWidth":111.765625,"availableWidth":214,"lines":1},{"x":39,"y":1795.375,"width":242,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":222,"lines":1},{"x":39,"y":2591.375,"width":242,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":222,"lines":1},{"x":39,"y":3387.375,"width":242,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":222,"lines":1},{"x":40,"y":4920.265625,"width":240,"height":47,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":220,"lines":1}],"heroPills":[{"x":43,"y":743.9375,"width":234,"height":47},{"x":43,"y":799.9375,"width":234,"height":47}],"benefitsPadding":["29px","32px"],"fonts":[{"family":"Google Sans Flex","status":"loaded"},{"family":"Google Sans Code","status":"loaded"}],"cls":0,"images":[{"path":"assets/texas-home-hero.webp","loaded":false},{"path":"assets/gutter-installation.webp","loaded":false},{"path":"assets/gutter-guards.webp","loaded":false},{"path":"assets/gutter-repairs.webp","loaded":false}],"scrollSamples":{"before":[24.375,820.375,1616.375],"after":[24,520.375,1316.375]}},{"width":375,"scrollWidth":375,"startY":0,"pills":[{"x":43,"y":679.359375,"width":289,"height":47,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":269,"lines":1},{"x":43,"y":735.359375,"width":289,"height":47,"text":"EXPLORE SERVICES","textWidth":111.765625,"availableWidth":269,"lines":1},{"x":39,"y":1700.28125,"width":297,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":277,"lines":1},{"x":39,"y":2496.28125,"width":297,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":277,"lines":1},{"x":39,"y":3292.28125,"width":297,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":277,"lines":1},{"x":40,"y":4732.53125,"width":295,"height":47,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":275,"lines":1}],"heroPills":[{"x":43,"y":679.359375,"width":289,"height":47},{"x":43,"y":735.359375,"width":289,"height":47}],"benefitsPadding":["29px","32px"],"fonts":[{"family":"Google Sans Flex","status":"loaded"},{"family":"Google Sans Code","status":"loaded"}],"cls":0,"images":[{"path":"assets/texas-home-hero.webp","loaded":false},{"path":"assets/gutter-installation.webp","loaded":false},{"path":"assets/gutter-guards.webp","loaded":false},{"path":"assets/gutter-repairs.webp","loaded":false}],"scrollSamples":{"before":[24.28125,820.28125,1616.28125],"after":[24,520.28125,1316.28125]}},{"width":390,"scrollWidth":390,"startY":0,"pills":[{"x":50,"y":682.5,"width":140.5,"height":50,"text":"CALL A GUTTER PRO","textWidth":97.15625,"availableWidth":121,"lines":1},{"x":199.5,"y":682.5,"width":140.5,"height":50,"text":"EXPLORE SERVICES","textWidth":91.453125,"availableWidth":121,"lines":1},{"x":39,"y":1628.734375,"width":312,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":292,"lines":1},{"x":39,"y":2424.734375,"width":312,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":292,"lines":1},{"x":39,"y":3220.734375,"width":312,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":292,"lines":1},{"x":40,"y":4652.046875,"width":310,"height":50,"text":"CALL A GUTTER PRO","textWidth":97.15625,"availableWidth":290,"lines":1}],"heroPills":[{"x":50,"y":682.5,"width":140.5,"height":50},{"x":199.5,"y":682.5,"width":140.5,"height":50}],"benefitsPadding":["29px","32px"],"fonts":[{"family":"Google Sans Flex","status":"loaded"},{"family":"Google Sans Code","status":"loaded"}],"cls":0,"images":[{"path":"assets/texas-home-hero.webp","loaded":false},{"path":"assets/gutter-installation.webp","loaded":false},{"path":"assets/gutter-guards.webp","loaded":false},{"path":"assets/gutter-repairs.webp","loaded":false}],"scrollSamples":{"before":[24,819.734375,1615.734375],"after":[24,519.734375,1315.734375]}},{"width":430,"scrollWidth":430,"startY":0,"pills":[{"x":50,"y":660,"width":160.5,"height":50,"text":"CALL A GUTTER PRO","textWidth":97.15625,"availableWidth":141,"lines":1},{"x":219.5,"y":660,"width":160.5,"height":50,"text":"EXPLORE SERVICES","textWidth":91.453125,"availableWidth":141,"lines":1},{"x":39,"y":1606.234375,"width":352,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":332,"lines":1},{"x":39,"y":2402.234375,"width":352,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":332,"lines":1},{"x":39,"y":3198.234375,"width":352,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":332,"lines":1},{"x":40,"y":4599.03125,"width":350,"height":50,"text":"CALL A GUTTER PRO","textWidth":97.15625,"availableWidth":330,"lines":1}],"heroPills":[{"x":50,"y":660,"width":160.5,"height":50},{"x":219.5,"y":660,"width":160.5,"height":50}],"benefitsPadding":["29px","32px"],"fonts":[{"family":"Google Sans Flex","status":"loaded"},{"family":"Google Sans Code","status":"loaded"}],"cls":0,"images":[{"path":"assets/texas-home-hero.webp","loaded":false},{"path":"assets/gutter-installation.webp","loaded":false},{"path":"assets/gutter-guards.webp","loaded":false},{"path":"assets/gutter-repairs.webp","loaded":false}],"scrollSamples":{"before":[24.234375,820.234375,1616.234375],"after":[24,520.234375,1316.234375]}},{"width":1280,"scrollWidth":1280,"startY":0,"pills":[{"x":254,"y":979.3125,"width":324,"height":55,"text":"CALL A GUTTER PRO","textWidth":140.34375,"availableWidth":286,"lines":1},{"x":590,"y":979.3125,"width":324,"height":55,"text":"EXPLORE SERVICES","textWidth":132.09375,"availableWidth":286,"lines":1},{"x":562.1875,"y":1794.546875,"width":602.8125,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":565,"lines":1},{"x":562.1875,"y":2639.546875,"width":602.8125,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":565,"lines":1},{"x":562.1875,"y":3484.546875,"width":602.8125,"height":50,"text":"CALL A GUTTER PRO","textWidth":118.75,"availableWidth":565,"lines":1},{"x":868,"y":4845.234375,"width":270,"height":55,"text":"CALL A GUTTER PRO","textWidth":140.34375,"availableWidth":232,"lines":1}],"heroPills":[{"x":254,"y":979.3125,"width":324,"height":55},{"x":590,"y":979.3125,"width":324,"height":55}],"benefitsPadding":["50px","50px"],"fonts":[{"family":"Google Sans Flex","status":"loaded"},{"family":"Google Sans Code","status":"loaded"}],"cls":0,"images":[{"path":"assets/texas-home-hero.webp","loaded":false},{"path":"assets/gutter-installation.webp","loaded":false},{"path":"assets/gutter-guards.webp","loaded":false},{"path":"assets/gutter-repairs.webp","loaded":false}],"scrollSamples":{"before":[24,868.546875,1713.546875],"after":[24,568.546875,1413.546875]}}],"assertions":[{"name":"320 no page overflow","pass":true},{"name":"320 no startup scrolling","pass":true},{"name":"320 single-line pills","pass":true},{"name":"320 equal hero CTA geometry","pass":true},{"name":"320 actual fonts loaded","pass":true},{"name":"320 approved benefits spacing","pass":true},{"name":"320 first card remains sticky while second rises","pass":true},{"name":"320 clean sticky section exit","pass":true},{"name":"320 keyboard gallery selects repairs","pass":true},{"name":"320 gallery no document overflow","pass":true},{"name":"320 stack restored","pass":true},{"name":"375 no page overflow","pass":true},{"name":"375 no startup scrolling","pass":true},{"name":"375 single-line pills","pass":true},{"name":"375 equal hero CTA geometry","pass":true},{"name":"375 actual fonts loaded","pass":true},{"name":"375 approved benefits spacing","pass":true},{"name":"375 first card remains sticky while second rises","pass":true},{"name":"375 clean sticky section exit","pass":true},{"name":"375 keyboard gallery selects repairs","pass":true},{"name":"375 gallery no document overflow","pass":true},{"name":"375 stack restored","pass":true},{"name":"390 no page overflow","pass":true},{"name":"390 no startup scrolling","pass":true},{"name":"390 single-line pills","pass":true},{"name":"390 equal hero CTA geometry","pass":true},{"name":"390 actual fonts loaded","pass":true},{"name":"390 approved benefits spacing","pass":true},{"name":"390 first card remains sticky while second rises","pass":true},{"name":"390 clean sticky section exit","pass":true},{"name":"390 keyboard gallery selects repairs","pass":true},{"name":"390 gallery no document overflow","pass":true},{"name":"390 stack restored","pass":true},{"name":"430 no page overflow","pass":true},{"name":"430 no startup scrolling","pass":true},{"name":"430 single-line pills","pass":true},{"name":"430 equal hero CTA geometry","pass":true},{"name":"430 actual fonts loaded","pass":true},{"name":"430 approved benefits spacing","pass":true},{"name":"430 first card remains sticky while second rises","pass":true},{"name":"430 clean sticky section exit","pass":true},{"name":"430 keyboard gallery selects repairs","pass":true},{"name":"430 gallery no document overflow","pass":true},{"name":"430 stack restored","pass":true},{"name":"1280 no page overflow","pass":true},{"name":"1280 no startup scrolling","pass":true},{"name":"1280 single-line pills","pass":true},{"name":"1280 equal hero CTA geometry","pass":true},{"name":"1280 actual fonts loaded","pass":true},{"name":"1280 first card remains sticky while second rises","pass":true},{"name":"1280 clean sticky section exit","pass":true},{"name":"1280 keyboard gallery selects repairs","pass":true},{"name":"1280 gallery no document overflow","pass":true},{"name":"1280 stack restored","pass":true},{"name":"reduced motion ordinary flow","pass":true},{"name":"short landscape ordinary flow","pass":true},{"name":"skip link keyboard focus","pass":true},{"name":"skip link reaches main","pass":true},{"name":"menu reaches services heading","pass":true},{"name":"FAQ keyboard opens","pass":true},{"name":"calls disabled","pass":true},{"name":"no phone links","pass":true},{"name":"noindex nofollow","pass":true},{"name":"all local anchors resolve","pass":true},{"name":"no JavaScript errors","pass":true}],"blocked":["Four approved WebP image files absent; no successful image load or photography QA can be claimed."],"runtimeErrors":[],"failed":[]}
+### Ran Playwright code
+```js
+await (async page => {
+  const results = {testedAt: new Date().toISOString(), scope:'Local Chromium; missing original photos prevent final visual approval', widths:[], assertions:[], blocked:[]};
+  const check = (name, value) => { results.assertions.push({name,pass:!!value}); };
+  const errors = [];
+  page.on('pageerror', error => errors.push(error.message));
+  await page.addInitScript(() => {
+    window.qaCLS = 0;
+    new PerformanceObserver(list => list.getEntries().forEach(e => {if(!e.hadRecentInput) window.qaCLS += e.value;})).observe({type:'layout-shift',buffered:true});
+  });
+  for (const width of [320,375,390,430,1280]) {
+    await page.setViewportSize({width,height:width===1280?900:800});
+    await page.goto('http://127.0.0.1:4173');
+    await page.evaluate(()=>document.fonts.ready);
+    const geometry = await page.evaluate(() => {
+      const rect = el => {const r=el.getBoundingClientRect();return {x:r.x,y:r.y,width:r.width,height:r.height};};
+      const pills = [...document.querySelectorAll('.pill:not(.view-toggle)')].map(el=>{
+        const range = document.createRange();range.selectNodeContents(el);
+        const cs=getComputedStyle(el);
+        return {...rect(el),text:el.textContent.trim(),textWidth:range.getBoundingClientRect().width,availableWidth:el.clientWidth-parseFloat(cs.paddingLeft)-parseFloat(cs.paddingRight),lines:range.getClientRects().length};
+      });
+      return {width:innerWidth,scrollWidth:document.documentElement.scrollWidth,startY:scrollY,pills,heroPills:[...document.querySelectorAll('.pill-row .pill')].map(rect),benefitsPadding:[getComputedStyle(document.querySelector('.why')).paddingTop,getComputedStyle(document.querySelector('.why')).paddingBottom],fonts:[...document.fonts].map(f=>({family:f.family,status:f.status})),cls:window.qaCLS,images:[...document.images].map(i=>({path:i.getAttribute('src'),loaded:i.complete&&i.naturalWidth>0}))};
+    });
+    check(width+' no page overflow',geometry.width===geometry.scrollWidth);
+    check(width+' no startup scrolling',geometry.startY===0);
+    check(width+' single-line pills',geometry.pills.every(p=>p.lines===1&&p.textWidth<=p.availableWidth+1));
+    check(width+' equal hero CTA geometry',Math.abs(geometry.heroPills[0].width-geometry.heroPills[1].width)<1&&Math.abs(geometry.heroPills[0].height-geometry.heroPills[1].height)<1);
+    check(width+' actual fonts loaded',geometry.fonts.every(f=>f.status==='loaded'));
+    if(width<821)check(width+' approved benefits spacing',geometry.benefitsPadding.join('/')==='29px/32px');
+    await page.screenshot({path:`output/playwright/hero-${width}.png`});
+    const cards=page.locator('.service-card');
+    const top = await cards.nth(0).evaluate(el=>el.getBoundingClientRect().top+scrollY);
+    await page.evaluate(y=>scrollTo({top:y,behavior:'instant'}),top-24);
+    const before=await cards.evaluateAll(els=>els.map(el=>el.getBoundingClientRect().top));
+    await page.screenshot({path:`output/playwright/stack-${width}-01.png`});
+    await page.mouse.wheel(0,300);
+    await page.waitForTimeout(250);
+    const after=await cards.evaluateAll(els=>els.map(el=>el.getBoundingClientRect().top));
+    check(width+' first card remains sticky while second rises',Math.abs(after[0]-before[0])<2&&after[1]<before[1]-200);
+    await page.screenshot({path:`output/playwright/stack-${width}-02.png`});
+    const boundary = await page.locator('#services').evaluate(el=>el.getBoundingClientRect().bottom+scrollY);
+    await page.evaluate(y=>scrollTo({top:y,behavior:'instant'}),boundary+50);
+    const last = await cards.last().boundingBox();
+    check(width+' clean sticky section exit',last.y+last.height<0);
+    await page.locator('#viewToggle').click();
+    await page.locator('#carousel').focus();
+    await page.keyboard.press('End');
+    await page.waitForTimeout(650);
+    check(width+' keyboard gallery selects repairs',await page.locator('[data-slide="2"]').getAttribute('aria-current')==='true');
+    check(width+' gallery no document overflow',await page.evaluate(()=>document.documentElement.scrollWidth===innerWidth));
+    await page.screenshot({path:`output/playwright/swipe-${width}.png`});
+    await page.locator('#viewToggle').click();
+    check(width+' stack restored',await page.locator('#services').getAttribute('data-view')==='stack');
+    results.widths.push({...geometry,scrollSamples:{before,after}});
+  }
+  await page.setViewportSize({width:390,height:800});
+  await page.emulateMedia({reducedMotion:'reduce'});
+  await page.goto('http://127.0.0.1:4173');
+  check('reduced motion ordinary flow',await page.locator('.service-card').evaluateAll(els=>els.every(el=>getComputedStyle(el).position==='relative')));
+  await page.locator('#services').scrollIntoViewIfNeeded();
+  await page.screenshot({path:'output/playwright/reduced-motion-390.png'});
+  await page.emulateMedia({reducedMotion:'no-preference'});
+  await page.setViewportSize({width:740,height:390});
+  check('short landscape ordinary flow',await page.locator('.service-card').evaluateAll(els=>els.every(el=>getComputedStyle(el).position==='relative')));
+  await page.setViewportSize({width:390,height:800});
+  await page.goto('http://127.0.0.1:4173');
+  await page.keyboard.press('Tab');
+  check('skip link keyboard focus',await page.locator('.skip-link').evaluate(el=>el===document.activeElement));
+  await page.keyboard.press('Enter');
+  check('skip link reaches main',await page.locator('main').evaluate(el=>el===document.activeElement));
+  await page.locator('#menuButton').click();
+  check('menu reaches services heading',await page.locator('#services-title').evaluate(el=>el===document.activeElement));
+  const faq=page.locator('.faq details').nth(1);
+  await faq.locator('summary').focus();await page.keyboard.press('Enter');
+  check('FAQ keyboard opens',await faq.getAttribute('open')!==null);
+  check('calls disabled',await page.locator('button.pill-main').evaluateAll(els=>els.every(el=>el.disabled)));
+  check('no phone links',await page.locator('a[href^="tel:"]').count()===0);
+  check('noindex nofollow',await page.locator('meta[name="robots"]').getAttribute('content')==='noindex,nofollow');
+  check('all local anchors resolve',await page.locator('a[href^="#"]').evaluateAll(els=>els.every(a=>document.querySelector(a.getAttribute('href')))));
+  check('no JavaScript errors',errors.length===0);
+  results.blocked.push('Four approved WebP image files absent; no successful image load or photography QA can be claimed.');
+  results.runtimeErrors=errors;
+  results.failed=results.assertions.filter(a=>!a.pass);
+  return results;
+}
+)(page);
+```
+### Page
+- Page URL: http://127.0.0.1:4173/#top
+- Page Title: Texas Gutters | Katy + Cypress — Creative preview
+- Console: 4 errors, 0 warnings
+### Events
+- New console entries: .playwright-cli/console-2026-11-11T17-52-10-426Z.log#L12-L39
